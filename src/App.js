@@ -1,17 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Characters from './pages/Characters';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-         API Marvel
-        </p>
-       
-      </header>
-    </div>
+    <Characters></Characters>
   );
 }
-
-export default App;
