@@ -20,7 +20,8 @@ function Characters() {
   console.log(items);
 
   return (
-    <div className="container">
+    <div className="container">      
+      <CharacterTable items={items} isLoading={isLoading} />
     </div>
   );
 }
